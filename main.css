@@ -1,0 +1,28 @@
+*{
+  text-transform: uppercase;
+  text-align: center;
+}
+.card{
+  background: #aad;
+  width: 20%;
+  margin: auto;
+  padding: 2px 0px 2px 0px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px black;
+}
+.cards{
+  display: flex;
+}
+
+/* media queries */
+@media (min-device-width:350px) and (max-device-width:480px) {
+  .cards{
+    width:98%;
+    flex-wrap: wrap;
+    margin: 1%;
+  }
+  .card{
+    width: 98%;
+    margin-top: 2em;
+  }
+}
